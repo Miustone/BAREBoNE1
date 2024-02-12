@@ -1,4 +1,4 @@
-# tiny11builder
+# BAREbONE1 (BARE(BONE) 11)
 
 Scripts to build a trimmed-down Windows 11 image.
 
@@ -6,17 +6,15 @@ This is a script to automate the build of a streamlined Windows 11 image, simila
 My main goal is to use only Microsoft utilities like DISM, and nothing external. The only executable included is oscdimg.exe, which is provided in the Windows ADK and it is used to create bootable ISO images. Also included is an unattended answer file, which is used to bypass the MS account on OOBE and to deploy the image with the /compact flag.
 It's open-source, so feel free to add or remove anything you want! Feedback is also much appreciated.
 
-As of now, only build 22621.525 (the one that can be downloaded from the Microsoft website), 22621.1265 (the latest public build) and 25300 (latest Insider build as of now) are supported.
-
 Instructions:
 
 1. Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
 2. Mount the downloaded ISO image using Windows Explorer.
-3. For .1265, run tiny11 creator.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
+3. Run BAREbONE1.bat as administrator
 4. Select the drive letter where the image is mounted (only the letter, no colon (:))
 5. Select the SKU that you want the image to be based.
 6. Sit back and relax :)
-7. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
+7. When the image is completed, you will see it in the folder where the script was extracted, with the name BAREbONE1.iso
 
 What is removed:
 Clipchamp,
