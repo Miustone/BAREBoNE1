@@ -25,10 +25,12 @@ Instructions:
 
 1. Download Windows 11 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
 2. Mount the downloaded ISO image using Windows Explorer.
-3. Select the drive letter where the image is mounted (only the letter, no colon (:))
-4. Select the SKU that you want the image to be based.
-5. Sit back and relax :)
-6. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
+3. Start Powershell and cd to the Script Location (Example: cd C:\Users\username\Desktop\tiny11builder-main)
+4. Run the tiny11 script (Example: powershell -executionpolicy bypass -File .\tiny11maker.ps1)
+5. Select the drive letter where the image is mounted (only the letter, no colon (:))
+6. Select the SKU that you want the image to be based.
+7. Sit back and relax :)
+8. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
 
 What is removed:
 
